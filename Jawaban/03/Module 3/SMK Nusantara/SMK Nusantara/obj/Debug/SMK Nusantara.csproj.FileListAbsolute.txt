@@ -1,0 +1,19 @@
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\bin\Debug\SMK Nusantara.exe.config
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\bin\Debug\SMK Nusantara.exe
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\bin\Debug\SMK Nusantara.pdb
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK Nusantara.csprojResolveAssemblyReference.cache
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrAdminNav.resources
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrmLogin.resources
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrStudentNav.resources
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrTeacherNav.resources
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Properties.Resources.resources
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK Nusantara.csproj.GenerateResource.Cache
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK Nusantara.exe
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK Nusantara.pdb
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrEditProfile.resources
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrChangePassword.resources
+c:\users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrManageStudent.resources
+C:\Users\comp18\documents\visual studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrManageTeacher.resources
+C:\Users\comp18\Documents\Visual Studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrManageClass.resources
+C:\Users\comp18\Documents\Visual Studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrManageSchedule.resources
+C:\Users\comp18\Documents\Visual Studio 2015\Projects\SMK Nusantara\SMK Nusantara\obj\Debug\SMK_Nusantara.Forms.FrFinalizeSchedule.resources

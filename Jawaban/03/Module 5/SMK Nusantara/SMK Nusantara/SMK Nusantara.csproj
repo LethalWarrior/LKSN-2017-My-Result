@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC732DB5-96BC-44C4-9838-E6B8B2600EBD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMK_Nusantara</RootNamespace>
+    <AssemblyName>SMK Nusantara</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\GlobalUse.cs" />
+    <Compile Include="Classes\Validation.cs" />
+    <Compile Include="Database\Sample.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sample.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrAdminNav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrAdminNav.Designer.cs">
+      <DependentUpon>FrAdminNav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrChangePassword.Designer.cs">
+      <DependentUpon>FrChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrEditProfile.Designer.cs">
+      <DependentUpon>FrEditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrEntryScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrEntryScore.Designer.cs">
+      <DependentUpon>FrEntryScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrFinalizeSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrFinalizeSchedule.Designer.cs">
+      <DependentUpon>FrFinalizeSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrSentItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrSentItems.Designer.cs">
+      <DependentUpon>FrSentItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrInbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrInbox.Designer.cs">
+      <DependentUpon>FrInbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrInputScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrInputScore.Designer.cs">
+      <DependentUpon>FrInputScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrManageClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrManageClass.Designer.cs">
+      <DependentUpon>FrManageClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrManageSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrManageSchedule.Designer.cs">
+      <DependentUpon>FrManageSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrManageTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrManageTeacher.Designer.cs">
+      <DependentUpon>FrManageTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrManageStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrManageStudent.Designer.cs">
+      <DependentUpon>FrManageStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrMessageDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrMessageDetail.Designer.cs">
+      <DependentUpon>FrMessageDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrMessageMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrMessageMenu.Designer.cs">
+      <DependentUpon>FrMessageMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrNewMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrNewMessage.Designer.cs">
+      <DependentUpon>FrNewMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrReportScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrReportScore.Designer.cs">
+      <DependentUpon>FrReportScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrStudentNav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrStudentNav.Designer.cs">
+      <DependentUpon>FrStudentNav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrTeacherNav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrTeacherNav.Designer.cs">
+      <DependentUpon>FrTeacherNav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrTeachingSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrTeachingSchedule.Designer.cs">
+      <DependentUpon>FrTeachingSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrViewSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrViewSchedule.Designer.cs">
+      <DependentUpon>FrViewSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrViewScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrViewScore.Designer.cs">
+      <DependentUpon>FrViewScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FrAdminNav.resx">
+      <DependentUpon>FrAdminNav.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrChangePassword.resx">
+      <DependentUpon>FrChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrEditProfile.resx">
+      <DependentUpon>FrEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrEntryScore.resx">
+      <DependentUpon>FrEntryScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrFinalizeSchedule.resx">
+      <DependentUpon>FrFinalizeSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrSentItems.resx">
+      <DependentUpon>FrSentItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrInbox.resx">
+      <DependentUpon>FrInbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrInputScore.resx">
+      <DependentUpon>FrInputScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrManageClass.resx">
+      <DependentUpon>FrManageClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrManageSchedule.resx">
+      <DependentUpon>FrManageSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrManageTeacher.resx">
+      <DependentUpon>FrManageTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrManageStudent.resx">
+      <DependentUpon>FrManageStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrMessageDetail.resx">
+      <DependentUpon>FrMessageDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrMessageMenu.resx">
+      <DependentUpon>FrMessageMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrNewMessage.resx">
+      <DependentUpon>FrNewMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrReportScore.resx">
+      <DependentUpon>FrReportScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrStudentNav.resx">
+      <DependentUpon>FrStudentNav.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrTeacherNav.resx">
+      <DependentUpon>FrTeacherNav.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrTeachingSchedule.resx">
+      <DependentUpon>FrTeachingSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrViewSchedule.resx">
+      <DependentUpon>FrViewSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrViewScore.resx">
+      <DependentUpon>FrViewScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Database\Sample.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Sample.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database\Sample.dbml.layout">
+      <DependentUpon>Sample.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
